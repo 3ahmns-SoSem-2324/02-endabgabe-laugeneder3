@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 9b099f8affa44a2489c3776bee2de28a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - RandomNumberText: {instanceID: 0}
+  - UserInputText: {instanceID: 0}
+  - FeedbackText: {instanceID: 0}
+  - ScoreText: {instanceID: 0}
+  - DivisibleBy3Text: {instanceID: 0}
+  - DivisibleBy5Text: {instanceID: 0}
+  - panel: {instanceID: 0}
+  - rightSoundClip: {fileID: 8300000, guid: e4353e21eeb869147b2df4f21a396fe2, type: 3}
+  - wrongSoundClip: {fileID: 8300000, guid: c057edad08c11034697ad771f27707ab, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
