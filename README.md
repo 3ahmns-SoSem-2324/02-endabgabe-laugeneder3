@@ -1,9 +1,9 @@
-# 02-endabgabe-laugeneder3
+02-endabgabe-laugeneder3
 
-FizzBuzzController - README
+# FizzBuzzController - README
 
 
-Einführung und Spielbeschreibung
+#### Einführung und Spielbeschreibung
 
 FizzBuzz ist ein Lernspiel, das das Verständnis von Teilbarkeit und logischem Denken fördert. Das Spiel zeigt eine zufällige Zahl zwischen 1 und 1000 an und der Spieler muss entscheiden, ob die Zahl durch 3, 5, beide teilbar oder durch keine Zahl teilbar ist. Die möglichen Antworten sind:
 
@@ -16,7 +16,7 @@ Das Ziel des Spiels ist es, so viele richtige Antworten wie möglich zu geben un
 
 
 
-Spielanleitung
+#### Spielanleitung
 
 Schritte zum Spielen:
 
@@ -44,8 +44,8 @@ Schritte zum Spielen:
         Nach einer kurzen Verzögerung wird eine neue zufällige Zahl generiert und das Spiel setzt sich fort.
         
 
-Code-Dokumentation
-UML Diagramm
+##### Code-Dokumentation
+#### UML Diagramm
 
 ```mermaid
 flowchart TD
@@ -92,9 +92,9 @@ flowchart TD
 ```
 
 
-Anmerkungen zum Code
+#### Anmerkungen zum Code
 
-CountdownController
+##### CountdownController
 
     Attribute:
         countdownText: TextMeshProUGUI-Element, um den Countdown anzuzeigen.
@@ -109,7 +109,7 @@ CountdownController
         LoadFizzBuzzMainScene(): Lädt die Hauptspielszene.
         
 
-FizzBuzzController
+##### FizzBuzzController
 
     Attribute:
     
@@ -148,14 +148,14 @@ FizzBuzzController
         GenerateNewNumberAfterDelay(): Generiert nach einer kurzen Verzögerung eine neue Zufallszahl.
         
 
-Szene zum Starten
+###### Szene zum Starten
 
 Man muss sicherstellen, dass die SampleScene, die den CountdownController enthält, als Startszene in den Build-Einstellungen von Unity ausgewählt ist.
 
 
 
 
-Nutzung von Makey Makey
+#### Nutzung von Makey Makey
 
 Um Makey Makey zu verwenden, muss man die Klemmen an den entsprechenden Flächen für die einzelnen Tasten anbringen:
 
@@ -171,7 +171,7 @@ Mit dieser Beschreibung sollte das Makey Makey nun funktionieren.
 
 
 
-Zusammenfassung Fragebogen:
+#### Zusammenfassung Fragebogen:
 
 Drei Anfänger haben das FizzBuzz-Spiel getestet: ein 47-Jähriger, eine 15-Jährige und eine 17-Jährige. Alle fanden die Benutzeroberfläche einfach zu bedienen und die Anweisungen hilfreich. Der 47-Jährige war sehr motiviert bei dem Spiel, die anderen zwei waren mittel-motiviert. Zwei der Befragten fanden das Spiel unterhaltsam, während eine Befragte es nur mittel unterhaltsam fand. Zwei Teilnehmer bewerteten das Spiel als intuitiv, und eine Teilnehmerin bewertete es als sehr intuitiv.
 
@@ -181,9 +181,9 @@ Die 15-Jährige und die 17-Jährige fanden das Spiel nur mittel motivierend. Es 
 
 
 
-Fehlerbehebung
+#### Fehlerbehebung
 
-Häufige Probleme
+##### Häufige Probleme
 
 1. Keine Audioausgabe
 
